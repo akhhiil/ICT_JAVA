@@ -1,0 +1,12 @@
+package com.ukf;
+
+public class Exception1{
+
+	public static void main(String[] args) {
+		int a=20;
+		int b=10;
+		try {
+			int result=a/b;
+	}
+
+}

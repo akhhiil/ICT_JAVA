@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SIGN UP</title>
+</head>
+<body>
+<form>
+<div>
+	<h1>SIGN UP</h1>
+	<div>
+		FirstName:<input type="text" name="fname"><br>
+		LastName :<input type="text" name="lname"><br>
+		Email    :<input type="text" name="email"><br>
+		Password :<input type="password" name="password"><br>
+		Re-enter :<input type="password" name="repassword"><br><br>
+	</div>
+	<button>SUBMIT</button>
+
+</div>
+</form>
+</body>
+</html>

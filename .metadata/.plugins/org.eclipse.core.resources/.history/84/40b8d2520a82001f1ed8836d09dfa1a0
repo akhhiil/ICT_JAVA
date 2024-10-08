@@ -1,0 +1,19 @@
+package com.ukf;
+
+public class test1 {
+
+	public static void main(String[] args) {
+		int a=20;
+		int b=10;
+		try {
+			int result=a/b;
+			System.out.println(result);
+			
+		}
+		catch(Exception e) {
+			System.out.println(e);
+		}
+//		System.out.println("hi");
+	}
+
+}

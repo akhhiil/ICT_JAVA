@@ -1,0 +1,18 @@
+package com.ukf;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@WebServlet("/homeservlet")
+public class HomeServlet extends HttpServlet{
+	public void service(HttpServletRequest req,HttpServletResponse res) throws IOException{
+		String fname=req.getParameter("fname");
+		PrintWriter out=res.getWriter();
+		out.println("WELCOME"+ " "+fname);
+	}
+}

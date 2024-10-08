@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="Std.jsp">
+	ID:<input type="text" name="id">
+	NAME:<input type="text" name="name">
+	CITY:<input type="text" name="city">
+	<button>SUBMIT</button>
+</form>
+</body>
+</html>
